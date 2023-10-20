@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(209, 210, 245) ;
+}
+li{
+    padding: 3px;
+ list-style: none;
+ display: inline-flex;
+ justify-content: space-between;
+ margin: 5px;
+ cursor: pointer;
+ font-size: 17px;
+
+ 
+}
+nav{
+    background-color: rgb(19, 19, 74);
+    color:white;
+    display: flex;
+    align-items:flex-end;
+    text-align: end;
+    
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+padding: 8px;
+}
+#logo{
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+}
+a:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 3px;
+   
+}

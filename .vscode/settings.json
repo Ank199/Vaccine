@@ -1,0 +1,8 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "livePreview.defaultPreviewPath": "/firstproject/src/main/resources/templates/index.html",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "cSpell.words": [
+        "firstproject"
+    ]
+}

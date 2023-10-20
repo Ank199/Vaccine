@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+
+    <form th:action="@{/Add}" method="post">
+<h1>Registration  Form for vaccination</h1>
+<label for="Adhar"> Enter your Adhar No :</label><p></p>
+<input type="number" id="Adhar" name="Adhar">
+<p></p>
+<label for="Name">Enter your Name :</label><p></p>
+<input type="text" id="Name" name="Name">
+<p></p>
+<label for="contact">Contact No. :</label><p></p>
+<input type="number" id="contact" name="contact">
+<p></p>
+<label for="vaccine">Name of  Vaccine :</label>
+<input type="text" id="vaccine" name="vaccine">
+
+
+<!-- <label for="vaccine">vaccine :</label>
+<select id="vaccine" name="vaccine">
+    <option value="Covaxin">Covaxin</option>
+    <option value="Covishield">Covishield</option>
+    <option value="option3">Option 3</option>
+</select> -->
+<p></p>
+<input type="submit">
+<input type="reset">
+
+
+
+    </form>
+
+    
+</body>
+</html>

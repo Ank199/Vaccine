@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Admin Updated Product List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>sr no.</th>
+                <th>Adhar no</th>
+                <th>Name</th>
+                <th>contact</th>
+                <th>vaccine</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr th:each="e, iStat : ${datalist}">
+                <td th:text="${iStat.index + 1}">1</td>
+                <td th:text="${e.Adhar}">Adhar</td>
+                <td th:text="${e.Name}">Name</td>
+                <td th:text="${e.contact}">contact</td>
+                <td th:text="${e.vaccine}">vaccine</td>
+                
+
+
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
